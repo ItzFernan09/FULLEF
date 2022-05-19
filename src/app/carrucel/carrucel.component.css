@@ -1,0 +1,17 @@
+.slide
+{
+  margin-top: 10px;
+}
+.slide img{
+  height: 65vh;
+}
+#carouselWithCaptions{
+  position: relative;
+  top: -10px;
+}
+h5
+{
+  position: relative;
+  top: -380px;
+  font-size: 30px;
+}

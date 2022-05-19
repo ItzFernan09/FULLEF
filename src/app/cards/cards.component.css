@@ -1,0 +1,24 @@
+.container{
+  width: auto;
+  position: relative;
+  top: 20px;
+  padding-bottom: 30px;
+}
+
+mat-icon{
+  position: relative;
+  top: 5px;
+}
+button{
+  background-color: rgb(79, 165, 235);
+  border-color: rgb(79, 165, 235);
+  width: 235px;
+}
+button:hover{
+  border-color: rgb(79, 165, 235);
+  background-color: white;
+  color: rgb(79, 165, 235);
+}
+/*.card{
+  border-style: none;
+}*/
