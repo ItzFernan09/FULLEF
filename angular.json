@@ -1,0 +1,150 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+<<<<<<< HEAD
+    "UFraternity": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
+=======
+    "FULLEF": {
+      "projectType": "application",
+      "schematics": {},
+>>>>>>> 09ac0ce (Proyecto Página de Inicio FULLEF Versión 2)
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+<<<<<<< HEAD
+            "outputPath": "dist/ufraternity",
+=======
+            "outputPath": "dist/fullef",
+>>>>>>> 09ac0ce (Proyecto Página de Inicio FULLEF Versión 2)
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+<<<<<<< HEAD
+              "node_modules/slick-carousel/slick/slick.scss",
+              "node_modules/slick-carousel/slick/slick-theme.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.css"
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/slick-carousel/slick/slick.min.js"
+            ]
+=======
+              "src/styles.css"
+            ],
+            "scripts": []
+>>>>>>> 09ac0ce (Proyecto Página de Inicio FULLEF Versión 2)
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+<<<<<<< HEAD
+              "browserTarget": "UFraternity:build:production"
+            },
+            "development": {
+              "browserTarget": "UFraternity:build:development"
+=======
+              "browserTarget": "FULLEF:build:production"
+            },
+            "development": {
+              "browserTarget": "FULLEF:build:development"
+>>>>>>> 09ac0ce (Proyecto Página de Inicio FULLEF Versión 2)
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+<<<<<<< HEAD
+            "browserTarget": "UFraternity:build"
+=======
+            "browserTarget": "FULLEF:build"
+>>>>>>> 09ac0ce (Proyecto Página de Inicio FULLEF Versión 2)
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+<<<<<<< HEAD
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+=======
+>>>>>>> 09ac0ce (Proyecto Página de Inicio FULLEF Versión 2)
+              "src/styles.css"
+            ],
+            "scripts": []
+          }
+        }
+      }
+    }
+  },
+<<<<<<< HEAD
+  "defaultProject": "UFraternity"
+=======
+  "cli": {
+    "analytics": "c73b8396-1a2c-4348-b518-aeb57017d092"
+  }
+>>>>>>> 09ac0ce (Proyecto Página de Inicio FULLEF Versión 2)
+}

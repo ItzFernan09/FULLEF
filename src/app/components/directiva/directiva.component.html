@@ -1,0 +1,45 @@
+<app-navbar></app-navbar>
+
+<h1 class="text-center py-4 uppercase
+ font-semibold text-lg font-Lato text-blue-500">
+ Bienvenido a nuestra directiva
+</h1>
+
+<div class=" m-4 grid md:grid-cols-3 gap-4 sm:grid-cols-2">
+  <div class="grid lg:grid-cols-2 shadow-lg rounded-md " *ngFor="let person of directiva; let i = index">
+    <img class="h-full object-cover object-center sm:rounded-t-md md:rounded-l-md" src="{{person.img}}" alt=""/>
+    <div class="px-6 mx-1.5 grid content-center">
+      <div>
+        <h5 class="text-gray-900 text-xl font-medium mb-2 text-center">{{person.name}}</h5>
+        <p class="text-gray-700 text-base mb-4">
+          Some quick example text to build on the card title and make up the bulk of the card's
+          content.
+        </p>
+        <div class="flex">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--
+  <div class=" mb-4 grid md:grid-cols-3 gap-4 sm:grid-cols-2">
+    <div class="flex justify-center" *ngFor="let person of directiva; let i = index">
+        <div class="rounded-lg shadow-lg bg-white max-w-sm">
+          <a href="#!">
+            <img class="rounded-t-lg" src="{{person.img}}" alt=""/>
+          </a>
+          <div class="p-6">
+            <h5 class="text-gray-900 text-xl font-medium mb-2">{{person.name}}</h5>
+            <p class="text-gray-700 text-base mb-4">
+              Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+          </div>
+        </div>
+      </div>
+</div>
+-->
+<app-footer></app-footer>
